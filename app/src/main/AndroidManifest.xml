@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.task61d">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Task61d"
+        tools:targetApi="31">
+
+        <!-- 启动页面 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 注册页面 -->
+        <activity android:name=".RegisterActivity" />
+
+        <!-- 兴趣选择页面 -->
+        <activity android:name=".InterestActivity" />
+
+        <!-- 主面板（任务列表） -->
+        <activity android:name=".DashboardActivity" />
+
+        <!-- 任务详情页面 -->
+        <activity android:name=".TaskDetailActivity" />
+
+        <!-- 结果展示页面 -->
+        <activity android:name=".ResultActivity" />
+
+    </application>
+
+</manifest>
