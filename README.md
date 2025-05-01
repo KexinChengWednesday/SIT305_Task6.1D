@@ -60,14 +60,9 @@ As specified in the assessment, the app uses **dummy questions and responses** t
 
 ## 📬 Author
 
-Developed by [Your Name]  
+Developed by Kexin Cheng
 For SIT305 - Task 6.1 Assessment  
 Deakin University
 
----
-
-## 📜 License
-
-This project is for educational use only.
 
 
