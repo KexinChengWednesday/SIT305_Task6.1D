@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3">
+
+    <TextView
+        android:text="Welcome, Student!"
+        android:textSize="24sp"
+        android:textColor="#FFF"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:minHeight="48dp"
+        android:padding="12dp" />
+
+
+    <Button android:id="@+id/btnLogin" android:text="Login"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+
+    <TextView android:id="@+id/tvRegister" android:text="Need an account?"
+        android:textColor="#FFF" android:layout_marginTop="12dp" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
