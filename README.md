@@ -35,12 +35,6 @@ The **Personalized Learning Experience App** offers a simplified prototype of an
 
 ---
 
-## 🧪 Dummy Data
-
-As specified in the assessment, the app uses **dummy questions and responses** to mimic real interactions. No real AI model or grading algorithm is implemented.
-
----
-
 
 ## 🧾 Notes
 
@@ -48,21 +42,6 @@ As specified in the assessment, the app uses **dummy questions and responses** t
 - Touch target issues have been resolved for all `EditText` elements.
 - Adaptive assessment logic is mocked with placeholder logic.
 
----
-
-## 🚀 How to Run
-
-1. Clone the repository
-2. Open in Android Studio
-3. Sync Gradle and Run on Emulator or Android Device
-
----
-
-## 📬 Author
-
-Developed by Kexin Cheng
-For SIT305 - Task 6.1 Assessment  
-Deakin University
 
 
 
